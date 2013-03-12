@@ -2,13 +2,13 @@ grunt学习和使用
 =====
 
 1.全局安装grunt
-=======
+===
 <pre>
 npm install -g grunt-cli
 </pre>
 
 2.配置package.json
-=======
+===
 进入项目目录，新建
 <pre>
 {
@@ -28,7 +28,7 @@ npm install // 安装package.json配置的插件
 </pre>
 
 3.创建Gruntfile.js，基本配置如下
-=======
+===
 <pre>
 module.exports = function(grunt) {
     // 配置
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
 </pre>
 
 4.运行grunt
-=======
+===
 命令行下输入:
 <pre>
 grunt
