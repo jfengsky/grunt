@@ -1,0 +1,9 @@
+{
+  "name": "gruntsass",                // 项目名
+  "version": "0.1.0",                 // 版本号
+  "devDependencies": {
+    "grunt": "~0.4.0",                 // 依赖插件配置
+    "grunt-contrib-sass": "~0.2.2"  //
+    "grunt-contrib-watch": "~0.3.1"  // 
+  }
+}
