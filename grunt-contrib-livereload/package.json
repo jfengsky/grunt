@@ -1,8 +1,0 @@
-{
-  "name": "livereloaddemo",                // 项目名
-  "version": "0.1.0",                 // 版本号
-  "devDependencies": {
-    "grunt": "~0.4.0",                 // 依赖插件配置
-    "grunt-contrib-livereload": "~0.1.2"  // js语法检查
-  }
-}
