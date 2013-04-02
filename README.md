@@ -2,7 +2,7 @@
 
 ####[grunt官网](http://gruntjs.com/) 和 [github](https://github.com/gruntjs/)
 
-#####1.全局安装grunt
+####1.全局安装grunt
 grunt 现在升级到了4.0，安装有所改变
 
 需要node环境，[点击下载和安装node](http://nodejs.org/)
@@ -16,7 +16,7 @@ grunt 现在升级到了4.0，安装有所改变
 	npm install -g grunt-cli
 
 
-#####2.配置package.json
+####2.配置package.json
 进入项目目录(例如:gruntdemo)，新建一个package.json文件,内容如下:
 
 	{
@@ -36,7 +36,7 @@ grunt 现在升级到了4.0，安装有所改变
 
 之后是下载一些文件，完成后目录下面多了一个node_modules文件夹，里面是依赖插件配置包。
 
-#####3.创建Gruntfile.js，基本配置如下:
+####3.创建Gruntfile.js，基本配置如下:
 
 	module.exports = function(grunt) {
 	    // 配置
@@ -66,26 +66,26 @@ grunt 现在升级到了4.0，安装有所改变
 	}; 
 
 
-#####4.运行grunt
+####4.运行grunt
 命令行下输入:
 
 	grunt
 
 可以看到合并压缩好的文件。
 
-####5.一些插件和配置
+###5.一些插件和配置
 
-#####watch
+####watch
 非常有用，用来监控文件变化自动task
 
-#####compass 
+####compass 
 sass下的插件
 
-#####concat
+####concat
 文件合并
 
-#####cssmin
+####cssmin
 合并压缩css
 
-#####livereload
+####livereload
 即改即见，有这个不用频繁刷新页面了，提高效率的好工具
